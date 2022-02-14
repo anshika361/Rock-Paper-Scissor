@@ -32,7 +32,7 @@ header h1 {
   font-family: "Courier New", Courier, monospace;
   position: absolute;
   margin-top: 20px;
-  left: 500px;
+  left: 420px;
 }
 
 .computer {
@@ -44,7 +44,7 @@ header h1 {
   font-family: "Courier New", Courier, monospace;
   position: absolute;
   margin-top: 20px;
-  right: 500px;
+  right: 400px;
 }
 .span {
   /* margin-top: 100px;
@@ -55,7 +55,7 @@ header h1 {
 span {
   font-size: 50px;
   color: white;
-  margin: 70px;
+  margin: 35px;
 }
 
 .result {
