@@ -23,28 +23,17 @@ header h1 {
   text-align: center;
 }
 
-.user {
-  border: 0.1rem solid white;
-  border-radius: 0.6rem;
-  padding: 5px;
+.scores span {
+  display: flex;
+  justify-content: center;
   color: white;
-  font-size: 20px;
+  font-size: 25px;
   font-family: "Courier New", Courier, monospace;
-  position: absolute;
-  margin-top: 2rem;
-  margin-left: 35rem;
+  position: center;
 }
 
-.computer {
-  border: 0.1rem solid white;
-  border-radius: 0.6rem;
-  padding: 5px;
-  color: white;
-  font-size: 20px;
-  font-family: "Courier New", Courier, monospace;
-  position: absolute;
-  margin-top: 2rem;
-  margin-left: 50rem;
+.score {
+  margin-top: 5rem;
 }
 
 .span {
@@ -53,7 +42,7 @@ header h1 {
   /* text-align: center; */
   display: flex;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 10px;
 }
 span {
   font-size: 50px;
@@ -102,30 +91,16 @@ span {
   margin-top: 30px;
   text-align: center;
 }
-@media screen and (max-width: 400px) {
-  .computer {
-    border: 0.1rem solid white;
-    border-radius: 0.6rem;
-    padding: 5px;
-    color: white;
-    font-size: 20px;
-    font-family: "Courier New", Courier, monospace;
-    position: absolute;
-    margin-top: 2rem;
-    margin-left: 12rem;
-  }
-}
 
 @media screen and (max-width: 400px) {
-  .user {
-    border: 0.1rem solid white;
-    border-radius: 0.6rem;
-    padding: 5px;
-    color: white;
-    font-size: 20px;
-    font-family: "Courier New", Courier, monospace;
-    position: absolute;
-    margin-top: 2rem;
-    margin-left: 3rem;
+  .scores span {
+    font-size: 19px;
+    margin: 0px;
+    padding: 0%;
+  }
+}
+@media screen and (max-width: 500px) and (min-width: 400px) {
+  .scores span {
+    font-size: 18px;
   }
 }
