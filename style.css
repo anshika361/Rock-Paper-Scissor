@@ -7,7 +7,7 @@ body {
   background-color: rgb(75, 73, 73);
 }
 header {
-  padding: 8px;
+  padding: 1rem;
   background-color: rgb(241, 216, 183);
 }
 header h1 {
@@ -24,32 +24,35 @@ header h1 {
 }
 
 .user {
-  border: 1px solid white;
-  border-radius: 5px;
+  border: 0.1rem solid white;
+  border-radius: 0.6rem;
   padding: 5px;
   color: white;
   font-size: 20px;
   font-family: "Courier New", Courier, monospace;
   position: absolute;
-  margin-top: 20px;
-  left: 420px;
+  margin-top: 2rem;
+  margin-left: 35rem;
 }
 
 .computer {
-  border: 1px solid white;
-  border-radius: 5px;
+  border: 0.1rem solid white;
+  border-radius: 0.6rem;
   padding: 5px;
   color: white;
   font-size: 20px;
   font-family: "Courier New", Courier, monospace;
   position: absolute;
-  margin-top: 20px;
-  right: 400px;
+  margin-top: 2rem;
+  margin-left: 50rem;
 }
+
 .span {
   /* margin-top: 100px;
   margin-left: 500px; */
-  text-align: center;
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
   margin-top: 100px;
 }
 span {
@@ -62,23 +65,26 @@ span {
   font-size: 25px;
   font-family: "Courier New", Courier, monospace;
   color: white;
-  margin-top: 30px;
+  /* margin-top: 3rem; */
   text-align: center;
+  padding: 2rem;
 }
 
 .choices {
-  text-align: center;
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
 }
 
 .choice img {
-  width: 150px;
-  height: 150px;
+  width: 5.5rem;
+  height: 5.5rem;
 }
 
 .choice {
   display: inline-block;
-  padding: 15px;
-  margin: 20px;
+  padding: 0.5rem;
+  margin: 0.5rem;
   border: 5px double white;
   border-radius: 50%;
   transition: all 0.2s ease;
@@ -95,4 +101,31 @@ span {
   color: white;
   margin-top: 30px;
   text-align: center;
+}
+@media screen and (max-width: 400px) {
+  .computer {
+    border: 0.1rem solid white;
+    border-radius: 0.6rem;
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+    font-family: "Courier New", Courier, monospace;
+    position: absolute;
+    margin-top: 2rem;
+    margin-left: 12rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .user {
+    border: 0.1rem solid white;
+    border-radius: 0.6rem;
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+    font-family: "Courier New", Courier, monospace;
+    position: absolute;
+    margin-top: 2rem;
+    margin-left: 3rem;
+  }
 }
